@@ -1,0 +1,53 @@
+# ── Secrets & environment ──────────────────────────────────────────────────────
+.env
+*.env.local
+
+# ── Python ─────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ── Virtual environments ────────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── Django ─────────────────────────────────────────────────────────────────────
+*.sqlite3
+db.sqlite3
+staticfiles/
+media/
+local_storage/
+
+# ── Logs ───────────────────────────────────────────────────────────────────────
+logs/*.log
+*.log
+
+# ── Test / coverage ─────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ── OS files ───────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ────────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Large zip / extracted assignment ───────────────────────────────────────────
+Polygon-migration-assignment.zip
+Polygon-migration-assignment/
+polyforge_test_polygon.zip
